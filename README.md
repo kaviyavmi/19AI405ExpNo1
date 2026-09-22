@@ -52,7 +52,7 @@ Measure the performance parameters
 
 
 ## PROGRAM
-
+```python
 class VacuumCleanerAgent:
     def __init__(self):
         # Initialize the agent's state (location and dirt status)
@@ -107,7 +107,7 @@ agent.perform_action("suck")
 agent.print_status()
 agent.perform_action("nothing")
 agent.print_status()
-
+```
 
 
 # OUTPUT
